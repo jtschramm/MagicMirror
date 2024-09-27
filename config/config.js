@@ -45,6 +45,10 @@ let config = {
 			module: "clock",
 			position: "top_left"
 		},
+
+
+
+// Calendars
 		{
 			module: "calendar",
 			header: "Calendar",
@@ -56,27 +60,64 @@ let config = {
 						symbol: "star",
 						url: "https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics"
 					},
-          { // Justin
+         			{ // Justin
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
 						url: "https://calendar.google.com/calendar/ical/jtschramm%40gmail.com/public/basic.ics"
 					},
-          { // Kenzie
+					{ // Kenzie
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "heart",
 						url: "https://calendar.google.com/calendar/ical/juu5bnfkh43q2tottonj183joo%40group.calendar.google.com/public/basic.ics"
 					},
-          { // Family
+					{ // Family
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "home",
 						url: "https://calendar.google.com/calendar/ical/gtu9htadn9hji9hm1h6lhl6no8%40group.calendar.google.com/public/basic.ics"
 					},
-          { // Birthdays
+					{ // Birthdays
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "birthday-cake",
 						url: "https://calendar.google.com/calendar/ical/eb6eegef903rr28qkk6fh2hm8s%40group.calendar.google.com/public/basic.ics"
 					},
 				]
+			}
+		},
+
+
+
+// Sheets Data
+		{
+			module: "MMM-GoogleSheets",
+			header: "Peleton Seat Settings",
+			position: "top_left",
+			config: {
+				url: "https://script.google.com/macros/s/AKfycbyfceLbaDfXfI2i0EsQiEuRHfDJiE7ybVfdcsH51XhLdZNNw4n_Icht9Qa8MoX0_VgH/exec",
+				sheet: "Sheet1",
+				range: "B3:D5",
+				cellStyle: "flat"
+			}
+		},
+		{
+			module: "MMM-GoogleSheets",
+			header: "Weightlifting",
+			position: "top_left",
+			config: {
+				url: "https://script.google.com/macros/s/AKfycbyfceLbaDfXfI2i0EsQiEuRHfDJiE7ybVfdcsH51XhLdZNNw4n_Icht9Qa8MoX0_VgH/exec",
+				sheet: "Sheet1",
+				range: "B8:D17",
+				cellStyle: "flat"
+			}
+		},
+		{
+			module: "MMM-GoogleSheets",
+			header: "Justin's Schedule",
+			position: "top_left",
+			config: {
+				url: "https://script.google.com/macros/s/AKfycbyfceLbaDfXfI2i0EsQiEuRHfDJiE7ybVfdcsH51XhLdZNNw4n_Icht9Qa8MoX0_VgH/exec",
+				sheet: "Sheet1",
+				range: "B21:C27",
+				cellStyle: "flat"
 			}
 		},
 		{
