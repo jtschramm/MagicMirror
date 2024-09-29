@@ -57,17 +57,17 @@ let config = {
 				calendars: [
 					{ // Holidays
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
-						symbol: "star",
+						symbol: "calendar-check",
 						url: "https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics"
 					},
          			{ // Justin
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
-						symbol: "calendar-check",
+						symbol: "stethoscope",
 						url: "https://calendar.google.com/calendar/ical/jtschramm%40gmail.com/public/basic.ics"
 					},
 					{ // Kenzie
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
-						symbol: "heart",
+						symbol: "pills",
 						url: "https://calendar.google.com/calendar/ical/juu5bnfkh43q2tottonj183joo%40group.calendar.google.com/public/basic.ics"
 					},
 					{ // Family
@@ -77,7 +77,7 @@ let config = {
 					},
 					{ // Birthdays
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
-						symbol: "birthday-cake",
+						symbol: "cake-candles",
 						url: "https://calendar.google.com/calendar/ical/eb6eegef903rr28qkk6fh2hm8s%40group.calendar.google.com/public/basic.ics"
 					},
 				]
