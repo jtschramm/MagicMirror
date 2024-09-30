@@ -120,6 +120,22 @@ let config = {
 				cellStyle: "flat"
 			}
 		},
+// POEM
+		{
+			module: "MMM-GoogleSheets",
+			header: "Daily Poem",
+			position: "bottom_bar",
+			config: {
+				url: "https://script.google.com/macros/s/AKfycbyGNXj7Hpj5VmtWHEAQxJWMl3BrJd6Z3bZKbVSeMumLXQiC3LssHtEvy98ac9dkPF0/exec",
+				sheet: "Sheet1",
+				range: "A4:B11",
+				cellStyle: "flat"
+			}
+		},
+
+
+
+		
 		{
 			module: "compliments",
 			position: "lower_third"
